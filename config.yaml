@@ -4,7 +4,7 @@ owner: "Er. Binaya Basnet"
 email: "binayabanetb.b@gmail.com"
 location: "Kathmandu, Nepal"
 domain: ""   # set your custom domain here; leave blank if none
-base_path: "/portfolio-website"                  # "" for custom domain or user site root; "/repo" for project site
+base_path: ""                  # "" for custom domain or user site root; "/repo" for project site
 social:
   linkedin: "https://www.linkedin.com/in/binaya-basnet/"
   github: "https://github.com/AyanibT"
