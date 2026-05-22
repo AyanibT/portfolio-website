@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% set page_title = "About" %}
+{% block content %}
+<section class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">About</h1>
+    
+    <div class="bg-white rounded-lg shadow-md p-8 mb-8">
+        <p class="text-gray-700 leading-relaxed mb-6">
+            I am a civil engineer specializing in hydropower, water resources, and climate change impacts on infrastructure. 
+            My work spans hydrologic modeling, reservoir operations, and climate-informed risk analysis for energy planning 
+            and flood management.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-3">Hydrology</h3>
+                <p class="text-gray-600">HEC-HMS, SWAT, IDF/IDW analysis</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-3">Hydraulics</h3>
+                <p class="text-gray-600">HEC-RAS 1D/2D, inundation mapping</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-3">Reservoirs</h3>
+                <p class="text-gray-600">rule curves, reliability, firm energy</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-3">Climate</h3>
+                <p class="text-gray-600">downscaling, bias correction, scenario analysis</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-3">Programming</h3>
+                <p class="text-gray-600">Python, GIS workflows</p>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <a href="/assets/documents/Binaya_CV.pdf" target="_blank" rel="noopener" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors">
+                Download CV
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

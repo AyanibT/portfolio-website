@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Generated files (optional: you may want to keep docs, but we do want it)
+# docs/   # DO NOT ignore docs - we need it for hosting
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+# publications.yaml
+
+- authors: "Binaya Basnet | Thesis Committee: Sangam Shrestha (Chairperson), S. Mohana Sundaram, Natthachet Tangdamrongsub"
+  year: 2024
+  title: "Climate-Risk Informed Reservoir Operation for Improved Energy Production and Fisheries in the Lower Mekong River Basin: A Case Study of the 3S River Basin"
+  venue: "Master's Thesis, Asian Institute of Technology"
+  link: "https://aitir.ait.ac.th/ait-thesis/detail.php?q=B21239"
+  image: "assets/img/Thesis Front.png"
+  description: |
+    This study analyzes the intricate relationships between hydrological processes, climate change, and fish catch dynamics within the Sekong River Basin. Climate projections show a consistent downward trend in discharge, with temperature increases of 1.22–3.80°C (tasmax) and 1.29–3.88°C (tasmin) under SSP scenarios. Improved reservoir release policies increase hydropower generation while maintaining ecological integrity, mimicking natural flow conditions. The study shows positive impacts on fish catch (CPUE) under various climate scenarios, providing valuable insights for adaptive water management.
+
+- authors: "Binaya Basnet, Sangam Shrestha, S. Mohana Sundaram, Natthachet Tangdamrongsub"
+  year: Ongoing, Target 2026
+  title: "Balancing Energy and Fisheries Under Climate Change: A Climate-Risk Informed Reservoir Operation Framework in the 3S Basin"
+  venue: "In preparation (target journal: Journal of Water Resources Planning and Management)"
+  link: ""
+  image: "assets/img/Thesis Objective.png"
+  description: |
+    This paper extends the thesis research, presenting a framework for reservoir operation that optimizes trade-offs between hydropower generation and fish catch under climate change. Using LSTM machine learning and scenario analysis, the proposed climate-risk informed approach incresses energy production while preserving downstream ecosystem functions in the 3S River Basin, a critical tributary of the Lower Mekong.
+
+- authors: "Subash Baral, Binaya Basnet, Natthachet Tangdamrongsub"
+  year: 2023
+  title: "Snow Mapping on Different Physiographic Regions of the Seti Gandaki River Basin Using Remote Sensing Data"
+  venue: "Master's Level Project, Water Engineering and Management, AIT"
+  link: ""
+  image: "assets/img/Snow Compare.png"
+  description: |
+    This study highlights the importance of using appropriate remote sensing data (Landsat 8 vs. MODIS) for monitoring snowmelt and water resources in the Seti Gandaki Basin. Differences in snow area measurements arise from spatial resolution, spectral bands, and cloud masking. Landsat 8 NDSI closely represents snow area, while MODIS NDSI may include barren rocks. Limitations include underestimation of snow cover in shaded areas, which is critical for water resource management and climate change studies in mountainous regions.
+
+- authors: "Binaya Basnet"
+  year: 2021
+  title: "3D Terrain Modeling and Printing: History, Research Potentials, and Application to Nepal's Topography"
+  venue: "Technical Report, Science Playground, Bhaktapur, Nepal"
+  link: ""
+  image: "assets/img/3D Print Nepal.jpg"
+  description: |
+    This report reviews the history of 3D terrain maps before the advent of 3D printers, explores future trends such as augmented 3D models with projectors, and identifies research potentials including applications in physical hydraulic modeling. It details the process of 3D printing an elevation model of Nepal using ASTER DEM data, demonstrating how additive manufacturing can produce accurate, tactile terrain representations for engineering and education.

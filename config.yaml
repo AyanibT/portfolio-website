@@ -1,0 +1,15 @@
+site_name: "Er. Binaya Basnet"
+tagline: "Civil Engineer | Hydrology/Hydraulics | Climate Resilience | GIS/WebGIS | 3D Printing"
+owner: "Er. Binaya Basnet"
+email: "binayabanetb.b@gmail.com"
+location: "Kathmandu, Nepal"
+domain: "binayabasnet.com.np"   # set your custom domain here; leave blank if none
+base_path: ""                  # "" for custom domain or user site root; "/repo" for project site
+social:
+  linkedin: "https://www.linkedin.com/in/binaya-basnet/"
+  github: "https://github.com/AyanibT"
+  webmap : "https://hydronaxa.com/"
+  facebook : "https://www.facebook.com/binaya.basnet.54"
+  scholar: "https://scholar.google.com/citations?user=XXXXX"
+  researchgate: "https://www.researchgate.net/profile/Your-Name"
+  orcid: "https://orcid.org/0009-0004-2835-7199"

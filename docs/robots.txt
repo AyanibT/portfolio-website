@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://binayabasnet.com.np/sitemap.xml

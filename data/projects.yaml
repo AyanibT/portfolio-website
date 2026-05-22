@@ -1,0 +1,78 @@
+- title: "Upper Pikhwa Khola Hydropower Project (4.9 MW)"
+  year: 2024 - Ongoing
+  location: "Nepal"
+  role: "Project Engineer"
+  summary: "Led technical coordination and contract management for the run-of-river hydropower project (4.9 MW. Prepared FIDIC-based contract documents, evaluated bids, and ensured compliance with technical specifications and safety standards."
+  skills: ["Project Management", "FIDIC Contracts", "Hydropower Construction", "Bid Evaluation"]
+  links:
+    project: "https://sumnimahydro.com.np/dev/projects/upper-pikhuwa-khola-hydropower-project-49-mw"
+  image: "assets/img/UPKHP HW drone.jpeg"
+
+- title: "Pikhwa Pashupati Hydropower Project (4.1 MW)"
+  year: 2024 - Ongoing
+  location: "Nepal"
+  role: "Project Engineer"
+  summary: "Led technical coordination and contract management for the run-of-river hydropower project (4.1 MW). Prepared FIDIC-based contract documents, evaluated bids, and ensured compliance with technical specifications and safety standards."
+  skills: ["Project Management", "FIDIC Contracts", "Hydropower Construction", "Bid Evaluation"]
+  links:
+    project: "https://sumnimahydro.com.np/dev/projects/upper-pikhuwa-khola-hydropower-project-49-mw"
+  image: "assets/img/Pikhuwa River PPHPP.jpg.png"
+
+- title: "Simbuwa Khola Hydroelectric Project (70.3 MW)"
+  year: 2022
+  location: "Nepal"
+  role: "Civil Engineer"
+  summary: "Assisted senior geotechnical engineer in geotechnical studies and report preparation. Used RS2/Phase2 software for tunnel design applying the Q-system (Barton et al. 1974) for rock mass classification. Contributed to updating feasibility study and tender documents."
+  skills: ["RS2/Phase2", "Q-system", "Tunnel Design", "Geotechnical Analysis", "Feasibility Study"]
+  links:
+    project: "https://srhl.org.np/pages/salient-features"
+  image: "assets/img/Simbuwa HPP.png"
+
+- title: "GIS Database & Interactive Web Map for Nepal's Energy Projects"
+  year: 2022 & 2024
+  location: "Nepal (ADB-supported study)"
+  role: "Consultant"
+  summary: "Developed a comprehensive GIS database of all hydropower and solar projects in Nepal, and created an interactive web map (https://hydronaxa.com) to support power system development and renewable energy integration studies under the Integrated Nepal Power System (INPS)."
+  skills: ["GIS", "QGIS", "Web Mapping", "Python", "Data Visualization"]
+  links:
+    map: "https://hydronaxa.com"
+  image: "assets/img/HydroNaxa.png"
+  
+- title: "3D Printed Terrain Model of Nepal"
+  year: 2020
+  location: "Nepal"
+  role: "Research Engineer"
+  summary: "3D printed an elevation model of Nepal using ASTER DEM data. Created map features for overlay projection and produced physical terrain models for educational and planning purposes."
+  skills: ["3D Printing", "GIS", "ASTER DEM", "Terrain Modeling", "QGIS"]
+  links: {}
+  image: "assets/img/3D Print Nepal.jpg"
+
+- title: "Hongu Khola HPP (28.9 MW) Feasibility Study"
+  year: 2021
+  location: "Nepal"
+  role: "Civil Engineer"
+  summary: "Conducted feasibility study for a 28.9 MW hydropower project, including hydrological analysis, energy assessment, and preliminary design. Prepared GIS maps and contributed to the feasibility report."
+  skills: ["Feasibility Study", "AutoCAD", "GIS", "Hydrological Modeling"]
+  links:
+    project: "https://www.unionhydropower.com.np/hongu-khola"
+  image: "assets/img/Hongu Map.png"
+
+- title: "Climate-Risk Informed Reservoir Operation – Lower Mekong"
+  year: 2024
+  location: "3S River Basin, Mekong"
+  role: "Researcher (Master's Thesis)"
+  summary: "Applied LSTM machine learning to optimize reservoir operations for improved energy production and fisheries under climate change scenarios. Developed a climate-risk informed framework for the Lower Mekong River Basin."
+  skills: ["LSTM", "Python", "TensorFlow", "Reservoir Simulation", "Climate Change Adaptation", "HEC-HMS", "HEC-ResSim"]
+  links:
+    thesis: "https://aitir.ait.ac.th/ait-thesis/detail.php?q=B21239"
+  image: "assets/img/Thesis Mekong 3S.png"
+
+- title: "Bheri-4 HPP Alternative Study"
+  year: 2020
+  location: "Nepal"
+  role: "Civil Engineer"
+  summary: "Evaluated alternative configurations for a 278.92 MW storage hydropower project, including hydrological and energy analysis, to identify optimal design for power generation while reducing inundation of settlements."
+  skills: ["Reservoir Design", "Energy Analysis", "Hydrological Modeling", "HEC-ResSim"]
+  links:
+    project: "https://www.google.com/search?q=bheri+4+storage+hydropower"
+  image: "assets/img/Bheri 4 Storage.png"

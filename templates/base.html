@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site.site_name }}</title>
+    <meta name="description" content="{{ page_description|default(site.tagline, true) }}">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="{{ url('/') }}" class="text-xl font-bold text-gray-800 hover:text-gray-900 transition-colors">
+                    {{ site.site_name }}
+                </a>
+                <div class="flex space-x-6">
+                    {% for item in nav %}
+                    <a href="{{ item.href }}" class="text-gray-600 hover:text-gray-900 transition-colors">
+                        {{ item.label }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-4 py-8 flex-grow">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="bg-gray-100 border-t border-gray-200 mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-8">
+            <div class="text-center text-gray-600 mb-4">
+                © {{ now().year }} {{ site.owner }} — {{ site.location }}
+            </div>
+            <div class="text-center">
+                <a href="mailto:{{ site.email }}" class="text-blue-600 hover:text-blue-800 transition-colors">Email</a>
+                {% if site.social.linkedin %} · 
+                <a href="{{ site.social.linkedin }}" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank" rel="noopener">LinkedIn</a>
+                {% endif %}
+                {% if site.social.github %} · 
+                <a href="{{ site.social.github }}" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank" rel="noopener">GitHub</a>
+                {% endif %}
+                {% if site.social.webmap %} · 
+                <a href="{{ site.social.webmap }}" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank" rel="noopener">Hydropower Map</a>
+                {% endif %}
+                {% if site.social.scholar %} · 
+                <a href="{{ site.social.scholar }}" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank" rel="noopener">Google Scholar</a>
+                {% endif %}
+                {% if site.social.researchgate %} · 
+                <a href="{{ site.social.researchgate }}" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank" rel="noopener">ResearchGate</a>
+                {% endif %}
+                {% if site.social.orcid %} · 
+                <a href="{{ site.social.orcid }}" class="text-blue-600 hover:text-blue-800 transition-colors" target="_blank" rel="noopener">ORCID</a>
+                {% endif %}
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

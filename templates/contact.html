@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% set page_title = "Contact" %}
+{% block content %}
+<section class="max-w-2xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">Contact</h1>
+    
+    <div class="bg-white rounded-lg shadow-md p-8">
+        <p class="text-gray-700 leading-relaxed mb-8 text-center">
+            Feel free to reach out for collaboration, consulting, or speaking.
+        </p>
+        
+        <div class="space-y-4 mb-8">
+            <div class="flex items-center">
+                <svg class="w-5 h-5 text-gray-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                <a href="mailto:{{ site.email }}" class="text-blue-600 hover:text-blue-800">
+                    {{ site.email }}
+                </a>
+            </div>
+            
+            <div class="flex items-center">
+                <svg class="w-5 h-5 text-gray-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <span class="text-gray-700">{{ site.location }}</span>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4">Also find me on:</h3>
+            <div class="flex justify-center space-x-6">
+                {% if site.social.linkedin %}
+                <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+                    LinkedIn
+                </a>
+                {% endif %}
+                {% if site.social.github %}
+                <a href="{{ site.social.github }}" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+                    GitHub
+                </a>
+                {% endif %}
+                {% if site.social.facebook %}
+                <a href="{{ site.social.facebook }}" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800">
+                    Facebook
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
