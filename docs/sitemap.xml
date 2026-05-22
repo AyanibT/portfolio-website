@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://binayabasnet.com.np/</loc>
+        <loc>/</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://binayabasnet.com.np/projects/</loc>
+        <loc>/projects/</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://binayabasnet.com.np/publications/</loc>
+        <loc>/publications/</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://binayabasnet.com.np/about/</loc>
+        <loc>/about/</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://binayabasnet.com.np/contact/</loc>
+        <loc>/contact/</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://binayabasnet.com.np/404.html</loc>
+        <loc>/404.html</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
