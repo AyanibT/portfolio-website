@@ -2,41 +2,122 @@
 {% set page_title = "About" %}
 {% block content %}
 <section class="max-w-4xl mx-auto">
-    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">About</h1>
+    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">About Me</h1>
     
     <div class="bg-white rounded-lg shadow-md p-8 mb-8">
-        <p class="text-gray-700 leading-relaxed mb-6">
-            I am a civil engineer specializing in hydropower, water resources, and climate change impacts on infrastructure. 
-            My work spans hydrologic modeling, reservoir operations, and climate-informed risk analysis for energy planning 
-            and flood management.
-        </p>
+        <!-- Main bio -->
+        <div class="prose prose-lg text-gray-700 leading-relaxed space-y-4 mb-8 text-justify">
+            <p>
+                I am a Civil Engineer with a Master’s degree in Water Engineering and Management from the 
+                <strong class="font-semibold">Asian Institute of Technology (AIT)</strong>, Thailand, and a strong interest in 
+                renewable energy, geospatial analysis, and climate-focused infrastructure development. My professional journey 
+                began in 2014 when I joined Khwopa Engineering College, Nepal, and since earning my Bachelor's degree in 2018, 
+                I have worked across diverse roles in hydropower, solar energy, GIS, and technical consulting.
+            </p>
+
+            <!-- Image after first paragraph: profile photo -->
+            <div class="my-6 flex justify-center">
+                <img src="{{ url('assets/img/profile.jpeg') }}" alt="Binaya Basnet" 
+                     class="rounded-lg shadow-md w-full object-cover">
+            </div>
+
+            <p>
+                I started my career at <strong>M.S. Tech Pvt. Ltd.</strong>, a consultancy focused on hydropower and geotechnical 
+                projects. During my time there, I contributed to feasibility studies, technical reports, GIS mapping, and design 
+                tasks for projects such as the Hongu Khola HPP, Simbuwa Khola HPP, and Dharamnagar Solar Farm.
+            </p>
+
+            <!-- Image after second paragraph: perhaps a photo from MS Tech or field work -->
+            <div class="my-6 flex justify-center">
+                <img src="{{ url('assets/img/field-work.jpg') }}" alt="Field work at hydropower site" 
+                     class="rounded-lg shadow-md w-full object-cover">
+            </div>
+
+            <p>
+                Alongside this, I was involved with <strong>Science Playground Pvt. Ltd.</strong>, an educational initiative by the 
+                same founder, where I worked on developing interactive science exhibits. A highlight of this collaboration was 
+                leading the <strong>"3D Terrain Modeling of Nepal"</strong> project — an innovative 3D printed map integrating 
+                topography, hydrology, and infrastructure for educational and planning purposes.
+            </p>
+
+            <!-- Image after third paragraph: 3D printed terrain model -->
+            <div class="my-6 flex justify-center">
+                <img src="{{ url('assets/img/3d-terrain.jpeg') }}" alt="3D printed terrain model of Nepal" 
+                     class="rounded-lg shadow-md w-full object-cover">
+            </div>
+
+            <p>
+                Later, as an independent consultant, I developed a GIS database and published an 
+                <strong>interactive web map showcasing all listed hydropower and solar projects in Nepal</strong> at various 
+                development stages. This work contributed to broader technical studies for Nepal’s power system planning in the 
+                context of the Dudhkoshi Storage HEP and beyond. 
+                <a href="https://hydronaxa.com/" target="_blank" rel="noopener" 
+                   class="text-blue-600 hover:text-blue-800 font-medium">
+                    View the map here →
+                </a>
+            </p>
+
+            <!-- Image after fourth paragraph: screenshot of the interactive map -->
+            <div class="my-6 flex justify-center">
+                <img src="{{ url('assets/img/HydroNaxa.png') }}" alt="Interactive web map of Nepal's energy projects" 
+                     class="rounded-lg shadow-md w-full object-cover">
+            </div>
+
+            <p>
+                I am currently working as a <strong>Project Engineer</strong>, providing technical support in hydropower project 
+                execution. My responsibilities include coordinating contracts based on FIDIC standards, reviewing bid/contract 
+                documents for Civil, Hydro-mechanical and Electro-mechanical works, and overseeing site supervision and reporting 
+                for projects such as Upper Pikhuwa (4.9 MW) and Pikhuwa Pashupati (4.1 MW).
+            </p>
+
+            <!-- Image after fifth paragraph: project site photo -->
+            <div class="my-6 flex justify-center">
+                <img src="{{ url('assets/img/Pikhuwa-site.jpeg') }}" alt="Upper Pikhuwa hydropower site" 
+                     class="rounded-lg shadow-md w-full object-cover">
+            </div>
+
+            <p>
+                I am passionate about leveraging <strong>GIS, WebGIS, data analysis, and open-source tools</strong> to support 
+                sustainable energy infrastructure and climate-resilient development.
+            </p>
+        </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div>
-                <h3 class="text-lg font-semibold text-gray-800 mb-3">Hydrology</h3>
-                <p class="text-gray-600">HEC-HMS, SWAT, IDF/IDW analysis</p>
-            </div>
-            <div>
-                <h3 class="text-lg font-semibold text-gray-800 mb-3">Hydraulics</h3>
-                <p class="text-gray-600">HEC-RAS 1D/2D, inundation mapping</p>
-            </div>
-            <div>
-                <h3 class="text-lg font-semibold text-gray-800 mb-3">Reservoirs</h3>
-                <p class="text-gray-600">rule curves, reliability, firm energy</p>
-            </div>
-            <div>
-                <h3 class="text-lg font-semibold text-gray-800 mb-3">Climate</h3>
-                <p class="text-gray-600">downscaling, bias correction, scenario analysis</p>
-            </div>
-            <div>
-                <h3 class="text-lg font-semibold text-gray-800 mb-3">Programming</h3>
-                <p class="text-gray-600">Python, GIS workflows</p>
+        <!-- Technical skills grid (updated from CV) -->
+        <div class="border-t border-gray-200 pt-6 mt-6">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Water Engineering & Hydrology</h3>
+                    <p class="text-gray-600">HEC‑HMS, HEC‑ResSim, HEC‑RAS/HEC‑GeoRAS, MIKE+, QUAL2K, MODFLOW, SWAT</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Civil & Geotechnical</h3>
+                    <p class="text-gray-600">AutoCAD 2D/3D, BricsCAD, SketchUp, SAP2000, Phase2/RS2</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">GIS & Remote Sensing</h3>
+                    <p class="text-gray-600">ArcGIS, QGIS, Google Earth Engine, Web Mapping</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Programming & Data Analysis</h3>
+                    <p class="text-gray-600">Python (Pandas, GeoPandas, Matplotlib), Anaconda, VS Code, Jupyter, Kaggle</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">AI & Machine Learning</h3>
+                    <p class="text-gray-600">Keras, TensorFlow, Scikit‑learn, LSTM, Prompt Engineering</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Other Tools</h3>
+                    <p class="text-gray-600">3D terrain modelling, 3D printing, WordPress, Web Scraping</p>
+                </div>
             </div>
         </div>
         
-        <div class="text-center">
-            <a href="/assets/documents/Binaya_CV.pdf" target="_blank" rel="noopener" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors">
-                Download CV
+        <!-- Download CV button -->
+        <div class="text-center mt-8">
+            <a href="{{ url('/assets/documents/Binaya_CV.pdf') }}" target="_blank" rel="noopener" 
+               class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors">
+                Download CV (PDF)
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                 </svg>
