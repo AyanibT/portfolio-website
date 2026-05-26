@@ -18,6 +18,16 @@
     project: "https://sumnimahydro.com.np/projects/pikhuwa-pashupati-hydropower-project-41-mw"
   image: "assets/img/Pikhuwa River PPHPP.jpg.png"
 
+- title: "Dharamnagar Solar Farm (10 MW)"
+  year: Operationl Since 2025
+  location: "Nepal"
+  role: "Civil Engineer"
+  summary: "Conducted GIS mapping and feasibility study review for a 10 MW solar PV project. Visited the site during a public hearing for the Initial Environmental Examination (IEE) study, contributing to stakeholder engagement and environmental impact assessment."
+  skills: ["GIS", "ArcGIS", "Feasibility Study", "Solar Energy", "IEE", "Public Hearing"]
+  links:
+    project: "https://www.prpl.com.np/projects/dsf-i/"
+  image: "assets/img/field-work.jpg"
+
 - title: "Simbuwa Khola Hydroelectric Project (70.3 MW)"
   year: 2022
   location: "Nepal"
