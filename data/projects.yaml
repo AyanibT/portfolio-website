@@ -18,6 +18,16 @@
     project: "https://sumnimahydro.com.np/projects/pikhuwa-pashupati-hydropower-project-41-mw"
   image: "assets/img/Pikhuwa River PPHPP.jpg.png"
 
+- title: "GIS Database & Interactive Web Map for Nepal's Energy Projects"
+  year: 2022 & 2024
+  location: "Nepal (ADB-supported study)"
+  role: "Consultant"
+  summary: "Developed a comprehensive GIS database of all hydropower and solar projects in Nepal, and created an interactive web map (https://hydronaxa.com) to support power system development and renewable energy integration studies under the Integrated Nepal Power System (INPS)."
+  skills: ["GIS", "QGIS", "Web Mapping", "Python", "Data Visualization"]
+  links:
+    map: "https://hydronaxa.com"
+  image: "assets/img/HydroNaxa.png"
+
 - title: "Dharamnagar Solar Farm (10 MW)"
   year: Operationl Since 2025
   location: "Nepal"
@@ -37,16 +47,6 @@
   links:
     project: "https://srhl.org.np/pages/salient-features"
   image: "assets/img/Simbuwa HPP.png"
-
-- title: "GIS Database & Interactive Web Map for Nepal's Energy Projects"
-  year: 2022 & 2024
-  location: "Nepal (ADB-supported study)"
-  role: "Consultant"
-  summary: "Developed a comprehensive GIS database of all hydropower and solar projects in Nepal, and created an interactive web map (https://hydronaxa.com) to support power system development and renewable energy integration studies under the Integrated Nepal Power System (INPS)."
-  skills: ["GIS", "QGIS", "Web Mapping", "Python", "Data Visualization"]
-  links:
-    map: "https://hydronaxa.com"
-  image: "assets/img/HydroNaxa.png"
   
 - title: "3D Printed Terrain Model of Nepal"
   year: 2020
