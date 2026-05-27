@@ -10,10 +10,18 @@
     <!-- using PNG logo-->
     <link rel="icon" type="image/png" href="{{ url('assets/img/Logo B.png') }}">
 
+    <style>
+        /* Smooth scroll offset for fixed navbar */
+        html {
+            scroll-padding-top: 80px;
+        }
+    </style>
+
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col">
-    <nav class="bg-white shadow-sm">
-        <div class="max-w-6xl mx-auto px-4 py-4">
+    <!-- Sticky navbar -->
+    <nav class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
                  <!-- Logo and site name -->
                 <div class="flex items-center space-x-3">
@@ -23,9 +31,29 @@
                         {{ site.site_name }}
                     </a>
                 </div>
-                <div class="flex space-x-6">
+
+                <!-- Desktop navigation (hidden on mobile, shown on md+) -->
+                <div class="hidden md:flex space-x-6">
                     {% for item in nav %}
                     <a href="{{ item.href }}" class="text-gray-600 hover:text-gray-900 transition-colors">
+                        {{ item.label }}
+                    </a>
+                    {% endfor %}
+                </div>
+
+                <!-- Mobile hamburger button -->
+                <button id="menu-btn" class="md:hidden text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile dropdown menu (hidden by default) -->
+            <div id="mobile-menu" class="hidden md:hidden mt-3 pt-2 border-t border-gray-100">
+                <div class="flex flex-col space-y-3">
+                    {% for item in nav %}
+                    <a href="{{ item.href }}" class="text-gray-600 hover:text-gray-900 transition-colors py-1">
                         {{ item.label }}
                     </a>
                     {% endfor %}
@@ -33,6 +61,7 @@
             </div>
         </div>
     </nav>
+
 
     <main class="max-w-6xl mx-auto px-4 py-8 flex-grow">
         {% block content %}{% endblock %}
@@ -66,5 +95,21 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Toggle script for mobile menu -->
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        // Close menu when a link is clicked (optional)
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
 </body>
 </html>
